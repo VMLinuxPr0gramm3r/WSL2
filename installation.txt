@@ -22,7 +22,7 @@
     It will take some time to install.
 
     4. Set WSL2 as your defualt version.
-    To do this run the following command in powershell:
+    To do this run the following command in powershell (as administrator):
     wsl --set-default-version 2
 
     5. Open Microsoft store and search for linux, choose yourr favorite distro and install it.
