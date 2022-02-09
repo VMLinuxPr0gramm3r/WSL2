@@ -7,12 +7,12 @@
     * In the search bar type turn windows features on or off and then click "run and administrator".
     * Then scroll down to where it says 'Windows Subsystem for Linux', click the check box.
     * Then in the same way enable the Virtual Machine Feature and reboot.
+    * Make sure that your check boxex should be check, very through this image.
+    ![image](https://user-images.githubusercontent.com/99178290/153110730-bfe4de01-2ed7-4c05-83cd-2c669ae43ea6.png
     
-    ![image](https://user-images.githubusercontent.com/99178290/153110730-bfe4de01-2ed7-4c05-83cd-2c669ae43ea6.png)
-    
-     After running this command, restart your computer.
+    After running this command, restart your computer.
 
-    2. Enable the Vitual Machine Feature
+    2. Enable the Vitual Machine Feature 
     Open powershell as administrator and run the following command:
     $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
