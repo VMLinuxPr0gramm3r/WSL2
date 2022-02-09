@@ -8,6 +8,8 @@
     * Then scroll down to where it says 'Windows Subsystem for Linux', click the check box.
     * Then in the same way enable the Virtual Machine Feature and reboot.
     
+    ![image](https://user-images.githubusercontent.com/99178290/153110730-bfe4de01-2ed7-4c05-83cd-2c669ae43ea6.png)
+    
      After running this command, restart your computer.
 
     2. Enable the Vitual Machine Feature
