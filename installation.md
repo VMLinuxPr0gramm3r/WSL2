@@ -3,6 +3,10 @@
     1. Enable the windows subsystem for linux featue.
     Open powershell as administrator and run the following command:
     $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    * This can also be done by using a GUI.
+    * In the search bar type turn windows features on or off and then click "run and administrator".
+    * Then scroll down to where it says 'Windows Subsystem for Linux', click the check box.
+    * Then in the same way enable the Virtual Machine Feature and reboot.
     
      After running this command, restart your computer.
 
