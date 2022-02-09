@@ -1,13 +1,14 @@
-#installation instructions:
+# Installation instructions:
+
     1. Enable the windows subsystem for linux featue.
     Open powershell as administrator and run the following command:
-    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     
      After running this command, restart your computer.
 
     2. Enable the Vitual Machine Feature
     Open powershell as administrator and run the following command:
-    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+    $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
     After running this command, restart your computer again.
 
@@ -23,10 +24,10 @@
 
     4. Set WSL2 as your defualt version.
     To do this run the following command in powershell:
-    wsl --set-default-version 2
+    $ wsl --set-default-version 2
 
     5. Open Microsoft store and search for linux, choose yourr favorite distro and install it.
 
     6. Confirm if the distro is running wsl2.
     Run the following command in powershell/cmd:
-    wsl --list --verbose
+    $ wsl --list --verbose
